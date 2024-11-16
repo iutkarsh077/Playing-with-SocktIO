@@ -11,7 +11,7 @@ const Login = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     // Handle login logic here
-    console.log("Login attempted with:", { username, password });
+    // console.log("Login attempted with:", { username, password });
     await login(username, password);
   };
 

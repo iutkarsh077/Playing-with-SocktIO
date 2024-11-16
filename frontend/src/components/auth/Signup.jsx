@@ -34,7 +34,7 @@ export default function SignUp() {
     const handleSubmit = async (e) => {
       e.preventDefault();
       // Handle sign up logic here
-      console.log('Sign up attempted with:', formData);
+      // console.log('Sign up attempted with:', formData);
       await signup(formData);
     }
   
